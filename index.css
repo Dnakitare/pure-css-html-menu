@@ -18,3 +18,28 @@
 	border-radius: 8px;
 	overflow: hidden;
 }
+
+.item {
+	border-top: 1px solid black;
+	overflow: hidden;
+}
+
+.btn {
+	display: block;
+	padding: 16px 20px;
+	background: #3498db;
+	color: white;
+	position: relative;
+}
+
+.btn:before {
+	content: '';
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	background: #3498db;
+	left: 20px;
+	bottom: 7px;
+
+}
+
